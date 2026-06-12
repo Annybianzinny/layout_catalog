@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #060b35;
+    transition: color 300ms;
+
+    &:hover {
+      color: #00acdc;
+    }
+  }
+
+  .is-active {
+    color: #00acdc;
+  }
+}
