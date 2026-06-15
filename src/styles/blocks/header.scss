@@ -1,33 +1,4 @@
 .header {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
-}
-
-.nav {
-  &__list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  &__item {
-    margin: 0;
-  }
-
-  &__link {
-    text-decoration: none;
-    color: #060b35;
-    transition: color 300ms;
-  }
-
-  &__link:hover {
-    color: #00acdc;
-  }
-}
-
-.is-active {
-  color: #00acdc;
 }
