@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+
     <title>Catalog</title>
 
     <link
@@ -20,32 +21,35 @@
         <ul class="nav__list">
           <li class="nav__item">
             <a
-              class="nav__link is-active"
               href="#"
+              class="nav__link is-active"
             >
               Apple
             </a>
           </li>
+
           <li class="nav__item">
             <a
-              class="nav__link"
               href="#"
+              class="nav__link"
             >
               Samsung
             </a>
           </li>
+
           <li class="nav__item">
             <a
-              class="nav__link"
               href="#"
+              class="nav__link"
             >
               Smartphones
             </a>
           </li>
+
           <li class="nav__item">
             <a
-              class="nav__link"
               href="#"
+              class="nav__link"
               data-qa="nav-hover"
             >
               Laptops & computers
@@ -55,56 +59,57 @@
       </nav>
     </header>
 
-    <main class="main">
-      <section class="catalog">
-        <div class="catalog__grid">
-          <div
-            class="card"
-            data-qa="card"
-          >
-            <img
-              class="card__image"
-              src="./images/imac.jpeg"
-              alt="iMac"
-            />
+    <main class="catalog">
+      <article
+        class="card"
+        data-qa="card"
+      >
+        <img
+          class="card__image"
+          src="./images/imac.jpeg"
+          alt="Apple iMac 27"
+        />
 
-            <h2 class="card__title">Apple iMac 27"</h2>
+        <h2 class="card__title">Apple iMac 27"</h2>
 
-            <div class="card__stars">
-              <img
-                src="./images/star-active.svg"
-                alt="star"
-              />
-              <img
-                src="./images/star-active.svg"
-                alt="star"
-              />
-              <img
-                src="./images/star-active.svg"
-                alt="star"
-              />
-              <img
-                src="./images/star-active.svg"
-                alt="star"
-              />
-              <img
-                src="./images/star.svg"
-                alt="star"
-              />
-            </div>
-
-            <div class="card__price">$1,999</div>
-
-            <a
-              href="#"
-              class="card__button"
-              data-qa="card-hover"
-            >
-              Buy
-            </a>
-          </div>
+        <div class="stars">
+          <img
+            class="stars__star"
+            src="./images/star-active.svg"
+            alt="star"
+          />
+          <img
+            class="stars__star"
+            src="./images/star-active.svg"
+            alt="star"
+          />
+          <img
+            class="stars__star"
+            src="./images/star-active.svg"
+            alt="star"
+          />
+          <img
+            class="stars__star"
+            src="./images/star-active.svg"
+            alt="star"
+          />
+          <img
+            class="stars__star"
+            src="./images/star.svg"
+            alt="star"
+          />
         </div>
-      </section>
+
+        <div class="card__price">$1,999</div>
+
+        <a
+          href="#"
+          class="card__button"
+          data-qa="card-hover"
+        >
+          Buy
+        </a>
+      </article>
     </main>
   </body>
 </html>
